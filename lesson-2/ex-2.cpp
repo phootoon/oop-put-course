@@ -38,3 +38,4 @@ int main()
     Pool_stick portugal_cue(5,5,5,4);
     Pool_stick supreme_cue(9,10,9,8);
     portugal_cue.print_all_traits();
+}
