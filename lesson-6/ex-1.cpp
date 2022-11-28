@@ -9,8 +9,8 @@ private:
     int b;
 public:
     NumberUtils(int x, int y){
-        a = x;
-        b = y;
+        this->a = x;
+        this->b = y;
     }
      int max_value(){
         return a > b ? a : b;
@@ -28,6 +28,6 @@ int main(){
     cout << "max value = " << num1.max_value() << endl;
     cout << "min value = " << num1.min_value() << endl;
     cout << "average value = " << num1.avg() << endl;
-    //
+
 
 }
