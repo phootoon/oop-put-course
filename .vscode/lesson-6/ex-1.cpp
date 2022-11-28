@@ -28,6 +28,6 @@ int main(){
     cout << "max value = " << num1.max_value() << endl;
     cout << "min value = " << num1.min_value() << endl;
     cout << "average value = " << num1.avg() << endl;
-
+    //
 
 }
